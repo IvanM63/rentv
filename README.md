@@ -24,14 +24,15 @@ password: supervisor123
 
 ## Version
 - PHP version: PHP 8.2.0
-- Database ver mysql:
-- Framework: - React 18.2.0 - Expressjs 4.18.2
+- Database ver mysql 10.4.27:
+- Framework/Library: - React 18.2.0 - Expressjs 4.18.2
 
 ## Petunjunk Penggunaan Pada Masing masing
 
 ### [Server]
 1. Jalankan "npm install express" pada terminal
 2. Untuk running server jalankan "nodemon server.js" pada terminal
+3. Server akan berjalan pada "localhost:5000"
 
 ### [Client]
 1. Jalankan "npm install" pada terminal
