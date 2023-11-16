@@ -1,7 +1,7 @@
 {
-  "name": "food-delivery_server",
+  "name": "rentv_server",
   "version": "1.0.0",
-  "description": "Backend for Food Delivery app",
+  "description": "Backend for Vehicle Management app",
   "type": "module",
   "main": "server.js",
   "scripts": {
