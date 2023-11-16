@@ -45,7 +45,7 @@ password: supervisor123
 
 
 ## Other
-- Bila ingin menambahkan user baru, gunakan request post dengan body sbb:
+- Bila ingin menambahkan user baru, gunakan request post ke "localhost:5000/users" dengan body sbb:
 
 o- body :
 
