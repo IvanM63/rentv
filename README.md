@@ -27,6 +27,22 @@ password: supervisor123
 - Database ver mysql:
 - Framework: - React 18.2.0 - Expressjs 4.18.2
 
+## Petunjunk Penggunaan Pada Masing masing
+
+### [Server]
+1. Jalankan "npm install express" pada terminal
+2. Untuk running server jalankan "nodemon server.js" pada terminal
+
+### [Client]
+1. Jalankan "npm install" pada terminal
+2. Untuk running server jalankan "npm run start" pada terminal
+3. Website akan berjalan pada "localhost:3000"
+
+### [Database]
+1. Pindahkan folder rent_db ke "./XAMPP/mysql/data/"
+2. Lalu jalankan XAMPP
+
+
 ## Other
 - Bila ingin menambahkan user baru, gunakan request post dengan body sbb:
 
@@ -37,7 +53,7 @@ o- body :
     "email": "admin1@gmail.com",
     "password": "admin123",
     "confPassword": "admin123",
-    "role": "admin"
-}
-
+    "role": "admin" }
 -o
+
+
