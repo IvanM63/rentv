@@ -28,12 +28,16 @@ password: supervisor123
 - Framework: - React 18.2.0 - Expressjs 4.18.2
 
 ## Other
-- Bila ingin menambahkan user baru, gunakan request post dengan
+- Bila ingin menambahkan user baru, gunakan request post dengan body sbb:
 
-o- versions :
+o- body :
 
-    - PHP version : 8.0.2
-    - Database version : libmysql - mysqlnd 8.1.2
-    - framework : laravel
+    {
+    "name": "Admin1",
+    "email": "admin1@gmail.com",
+    "password": "admin123",
+    "confPassword": "admin123",
+    "role": "admin"
+}
 
 -o
