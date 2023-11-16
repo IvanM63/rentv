@@ -22,3 +22,18 @@ password: supervisor123
 email: supervisor4@gmail.com
 password: supervisor123
 
+## Version
+- PHP version: PHP 8.2.0
+- Database ver mysql:
+- Framework: - React 18.2.0 - Expressjs 4.18.2
+
+## Other
+- Bila ingin menambahkan user baru, gunakan request post dengan
+
+o- versions :
+
+    - PHP version : 8.0.2
+    - Database version : libmysql - mysqlnd 8.1.2
+    - framework : laravel
+
+-o
